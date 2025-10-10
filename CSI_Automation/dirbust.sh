@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# simple-dirb-case.sh
 # Small directory buster that uses a case switch for arguments.
 # Usage:
-#   ./simple-dirb-case.sh -u TARGET_URL -w WORDLIST [-e ext1,ext2] [-h]
+#   ./dirbust.sh -u TARGET_URL -w WORDLIST [-e ext1,ext2] [-h]
 #
 # Depth is fixed to 2 (root -> level1 -> level2).
 # Requires: curl
