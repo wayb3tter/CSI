@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Usage: ./pe-lite.sh [--full] [-h]
+# Usage: ./linuxprivesc.sh [--full] [-h]
 #  --full   show more lines for lists (longer output)
 #  -h       help
 
@@ -33,7 +33,7 @@ fi
 # prune common noisy mounts
 FIND_PRUNE=(-path /proc -prune -o -path /sys -prune -o -path /dev -prune -o -path /run -prune -o -path /var/lib -prune -o)
 
-printf "\n== pe-lite: concise local privesc checks ==\n\n"
+printf "\n== linuxprivesc: concise local privesc checks ==\n\n"
 
 # 1) UID, username, id, gid and other ids
 printf "[01] Identity: user & ids\n"
